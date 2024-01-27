@@ -1,0 +1,46 @@
+header{
+    height: 1000px;
+}
+.banner nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 27%;
+}
+.banner nav ul li{
+   margin-top: 10px;
+   list-style: none;
+}
+.banner nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.banner{
+    height: 500px;
+    opacity: 80%;
+    background-size: cover;
+    background-image: url('/360_F_218185587_P4zituDtWJOfClUKL6merI0BgLMIxoeC.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.heading{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+main section:nth-child(2n+1){
+    background-color: gray;
+}
+main section{
+    height: 300px;
+}
