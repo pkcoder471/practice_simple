@@ -22,7 +22,7 @@ header{
     height: 500px;
     opacity: 80%;
     background-size: cover;
-    background-image: url('/360_F_218185587_P4zituDtWJOfClUKL6merI0BgLMIxoeC.jpg');
+    background-image: url('img/360_F_218185587_P4zituDtWJOfClUKL6merI0BgLMIxoeC.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -43,4 +43,16 @@ main section:nth-child(2n+1){
 }
 main section{
     height: 300px;
+}
+.Image img{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 2px 5px white;
+    border-radius: 50%;
+    margin-left: 40%;
+
+}
+.Image{
+    margin-top: 8%;
+
 }
